@@ -1,0 +1,127 @@
+body {
+    overflow-x: hidden;
+  }
+
+.initial_view{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 10;
+}
+
+.initial_carousel {
+    position: relative;
+    z-index: 12;
+    left: 0px;
+    top: 0px;
+}
+
+.initial_img {
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo {
+    position: absolute;
+    z-index: 15;
+    left: 0px;
+    top: 0px;
+    height: 30vh;
+    width: 30vw;
+}
+
+.title_container {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    text-align: center;
+}
+
+.center_container {
+    width: fit-content;
+    display:inline-block;
+}
+
+.title {
+    color: #1b1c51;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 30pt;
+    padding-bottom: 5pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    border-bottom: 2pt solid #c1001b;
+    letter-spacing: 1pt;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #47447a;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 14pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+}
+
+
+.vision_content {
+    position: relative;
+    width: 100vw;
+}
+
+.vision_img {
+    position: relative;
+    z-index: 2;  
+    width: 80vw;
+    height: 80vh;
+    opacity: 0.15;
+    top: -10vh;
+    margin-left: 10vw;
+}
+
+.content_text {
+    position: absolute;
+    z-index: 4;
+    top: 0px;
+    left: 10vw;
+    width: 50vw;
+    color: #4d4d4d;
+    text-align: left;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+.promo_video {
+    position: absolute;
+    z-index: 4;
+    right: 10vw;
+    bottom: 10vh;
+    color: #c1001b;
+    text-align: right;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+}
+
+.promo_video p {
+    margin: 0px;
+    padding: 0px;
+ }
+
+.prototype_carousel {
+    position: relative;
+    top: -15vh;    
+    display:inline-block;
+    text-align: center;
+    height: 70vh;
+    width: 60vw;
+    
+}
+
+.proto_img {
+    height: 70vh;
+    width: 40vw;
+}
